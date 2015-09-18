@@ -1,0 +1,44 @@
+body {
+	padding:				25px 0;
+	background-color:		#eee;
+}
+section {
+	max-width:				724px;
+	width:					100%;
+	margin:					auto;
+	padding:				15px;
+}
+#buttons {
+	max-width:				150px;
+	width:					100%;
+	padding:				15px;
+	display:				inline-block;
+	position:				relative;
+	top:					200px;
+}
+#buttons button {
+	max-width:				inherit;
+	width:					inherit;
+	margin:					10px 0;
+
+}
+#buttons .btn:fucos {
+	outline:				0px auto -webkit-focus-ring-color !important;
+}
+#forms {
+	max-width:				510px;
+	width:					100%;
+	padding:				15px;
+	display:				inline-block;
+	position:				absolute;
+}
+.login {
+	top:					150px;
+	z-index:				1;
+}
+.input-group-addon {
+	max-width:				116px;
+}
+.signup button {
+	margin:					15px 0;
+}

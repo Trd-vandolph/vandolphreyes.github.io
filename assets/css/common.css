@@ -1,0 +1,72 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-size: 88%;
+    line-height: 160%;
+    color: #444;
+    background: #f7f7f7;
+    font-family: Meiryo , sans-serif;
+}
+
+
+/* ====================
+    Header
+==================== */
+
+header {
+    height: 15%;
+}
+
+/* ====================
+    Section
+==================== */
+
+section {
+    height: 70%;
+}
+
+.maintenance {
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    border: 5px solid rgb(40, 143, 207);
+}
+.resume {
+    text-align: center;
+    margin-top: 40px;
+}
+.resume .view {
+    padding: 10px 30px;
+}
+.resume .download {
+    padding: 10px;
+}
+.resume .view, .resume .download {
+    background: rgb(40, 143, 207);
+    border-radius: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.resume p {
+    margin: 10px;
+}
+
+
+/* ====================
+    Footer
+==================== */
+
+footer {
+    height: 15%;
+}
+.copyright {
+    text-align: center;
+}
